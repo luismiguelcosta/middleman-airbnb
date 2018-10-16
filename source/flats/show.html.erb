@@ -1,0 +1,65 @@
+<!-- source/flats/show.html.erb -->
+
+<!-- Access data.flats with owner's name as key -->
+<!-- <% flat = data.flats[owner] %> -->
+
+<!-- Inject flat data in template --><!--
+<%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle" %> -->
+<!-- <p><%= flat.name %></p>
+<h1><%= flat.description %></h1>
+<p><%= flat.city_name %></p> -->
+
+<div class="header-flat">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+        <div class="header-flat-details">
+          <div class="header-flat-owner text-center">
+            <img src="https://kitt.lewagon.com/placeholder/users/luismiguelcosta" class="img-circle width="80" alt="luismiguelcosta">
+            <p>
+              luismiguelcosta
+            </p>
+          </div>
+          <div class="header-flat-name">
+            <h1>
+              Charming room in Montmartre
+            </h1>
+            <p>
+              Paris, France
+            </p>
+            <p class="rating">
+              <i class="fa fa-star" style="color: #ffb400">
+              </i>
+              <i class="fa fa-star" style="color: #ffb400">
+              </i>
+              <i class="fa fa-star" style="color: #ffb400">
+              </i>
+              <i class="fa fa-star" style="color: #ffb400">
+              </i>
+              <i class="fa fa-star" style="color: #caccd">
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <form action="#">
+          <h4>
+            Book this flat
+          </h4>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-xs-6">
+                <input type="text" class="form-control" placeholder="checkin" id="checkin">
+              </div>
+              <div class="col-xs-6">
+                <input type="text" class="form-control" placeholder="checkout">
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

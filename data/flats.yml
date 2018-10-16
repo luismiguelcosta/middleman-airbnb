@@ -1,0 +1,22 @@
+# data/flats.yml
+dcgb93:
+  name: "Darlene's home"
+  description: "Charming room in Manhattan"
+  city_name: "New York, USA"
+  city_slug: "new-york"
+  wifi: true
+  rating: 4
+luismiguelcosta:
+  name: "Luis' home"
+  description: Small flat in Cascais
+  city_name: "Cascais, Portugal"
+  city_slug: "cascais"
+  wifi: true
+  rating: 3
+ghismo280:
+  name: Angelo's home
+  description: Nice flat in Pizzuta
+  city_name: "Siracusa, Italy"
+  city_slug: "siracusa"
+  wifi: true
+  rating: 5
